@@ -4,19 +4,19 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=
-do.devicecheck=0
+kernel.string=InfinixKernel by Grey
+do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=
-device.name2=
-device.name3=
+device.name1=Infinix-X697
+device.name2=tssi_64_infinix 
+device.name3=Infinix-X697
 device.name4=
 device.name5=
-supported.versions=
-supported.patchlevels=
+supported.versions=11 -
+supported.patchlevels=2023-09-05 
 '; } # end properties
 
 # shell variables
